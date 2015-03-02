@@ -17,7 +17,6 @@ tinymce.init({
 
    setup : function(editor) {
     editor.on('init', function () {
-    	// dont work
          tinymce.ScriptLoader.load('prism/prism.js');
          tinymce.activeEditor.dom.loadCSS('prism/prism.css');
     });   	
